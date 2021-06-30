@@ -29,13 +29,13 @@ const TwitterCard = () => {
   return (
     <StyledTwitterCard>
       <CardBody>
-        <Heading size="xl" mb="24px">
+        <Heading size="xl" mb="24px" color="black">
           {TranslateString(10003, 'Announcements')}
         </Heading>
         <Timeline
           dataSource={{
             sourceType: 'profile',
-            screenName: 'veganswap',
+            screenName: 'b3swap',
           }}
           options={{
             height: '300',

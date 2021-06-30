@@ -41,7 +41,7 @@ const CakeStats = () => {
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'VEGAN Stats')}
+          {TranslateString(534, 'B3 Stats')}
         </Heading>
         <Row>
           <Text fontSize="14px">{TranslateString(10005, 'Market Cap')}</Text>
@@ -60,7 +60,7 @@ const CakeStats = () => {
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} decimals={0} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New VEGAN/block')}</Text>
+          <Text fontSize="14px">{TranslateString(540, 'New B3/block')}</Text>
           <Text bold fontSize="14px">
             {veganPerBlock}
           </Text>

@@ -1,7 +1,7 @@
 {
-  "short_name": "Vegan Finance",
-  "name": "Vegan Finance",
-  "description": "Farm VEGAN with LP Tokens",
+  "short_name": "B3 Swap",
+  "name": "B3 Swap",
+  "description": "Farm B3 with LP Tokens",
   "icons": [
     {
       "src": "favicon.svg",
@@ -12,5 +12,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#966e6e"
 }

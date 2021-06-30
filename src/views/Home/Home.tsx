@@ -23,7 +23,7 @@ const Hero = styled.div`
   text-align: center;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/vegan/vegan-3.svg'), url('/images/vegan/vegan-2.svg');
+    background-image: url('/images/vegan/'), url('/images/vegan/');
     background-size: contain;
     background-position: left center, right center;
     height: 165px;
@@ -71,17 +71,17 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <StyledHeading as="h1" size="xl" mb="24px" color="primary">
-          {TranslateString(576, 'Vegan Finance')}
+        <StyledHeading as="h1" size="xl" mb="24px" color="black">
+          {TranslateString(576, 'B3Swap')}
         </StyledHeading>
-        <Text>{TranslateString(578, 'The most natural and healthy DEFI app on Binance Smart Chain')}</Text>
+        <Text color="black">{TranslateString(578, 'Finance of the future')}</Text>
       </Hero>
       <div>
         <Cards>
-          <FarmStakingCard />
+          {/* <FarmStakingCard />*/}
           <TwitterCard />
-          <CakeStats />
-          <TotalValueLockedCard />
+          {/* <CakeStats />*/}
+          {/* <TotalValueLockedCard />*/}
         </Cards>
       </div>
     </Page>

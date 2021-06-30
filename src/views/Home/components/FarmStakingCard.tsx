@@ -73,12 +73,12 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/vegan/vegan.svg" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'VEGAN to Harvest')}</Label>
+          <Label>{TranslateString(544, 'B3 to Harvest')}</Label>
           <CakeHarvestBalance earningsSum={earningsSum} />
           <Label>~${(veganPrice * earningsSum).toFixed(2)}</Label>
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'VEGAN in Wallet')}</Label>
+          <Label>{TranslateString(546, 'B3 in Wallet')}</Label>
           <CakeWalletBalance cakeBalance={cakeBalance} />
           <Label>~${(veganPrice * cakeBalance).toFixed(2)}</Label>
         </Block>
@@ -91,7 +91,7 @@ const FarmedStakingCard = () => {
               fullWidth
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting VEGAN')
+                ? TranslateString(548, 'Collecting B3')
                 : TranslateString(999, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
