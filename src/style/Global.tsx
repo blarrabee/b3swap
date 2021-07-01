@@ -512,6 +512,12 @@ svg{
     flex-shrink: 0;
     margin-right: 6px;
 }
+.dWRnUb {
+    fill: #2b7bb9;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
     img {
       height: auto;
       max-width: 100%;

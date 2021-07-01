@@ -4,8 +4,7 @@
   "description": "Farm B3 with LP Tokens",
   "icons": [
     {
-      "src": "favicon.svg",
-      "type": "image/svg+xml",
+      "src": "favicon.ico",
       "sizes": "256x256"
     }
   ],
